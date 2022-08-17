@@ -128,19 +128,6 @@
       </tags>
   </entry>
   <entry>
-    <title>各数据库类似功能函数记录</title>
-    <url>/post/19724609.html</url>
-    <content><![CDATA[<h4 id="1-将多行的某个字段合并为一行"><a href="#1-将多行的某个字段合并为一行" class="headerlink" title="1. 将多行的某个字段合并为一行"></a>1. 将多行的某个字段合并为一行</h4><h5 id="1-1-mysql的group-concat-distinct-column-order-by-cloumn-separator-函数"><a href="#1-1-mysql的group-concat-distinct-column-order-by-cloumn-separator-函数" class="headerlink" title="1.1 mysql的group_concat([distinct] column [order by cloumn] [separator])函数"></a>1.1 mysql的<span style="color:red">group_concat([distinct] column [order by cloumn] [separator])</span>函数</h5><h5 id="1-2-oracle的listagg-within-group-函数"><a href="#1-2-oracle的listagg-within-group-函数" class="headerlink" title="1.2 oracle的listagg() within group ()函数"></a>1.2 oracle的<span style="color:red">listagg() within group ()</span>函数</h5><h5 id="postgresql的string-agg-expression-separator-order-by-clause-和array-agg-expression-order-by-sort-expression-asc-desc-…-函数"><a href="#postgresql的string-agg-expression-separator-order-by-clause-和array-agg-expression-order-by-sort-expression-asc-desc-…-函数" class="headerlink" title="postgresql的string_agg(expression, separator [order_by_clause])和array_agg(expression [order by [sort_expression {asc | desc}], […])函数"></a>postgresql的<span style="color:red">string_agg(expression, separator [order_by_clause])</span>和<span style="color:red">array_agg(expression [order by [sort_expression {asc | desc}], […])函数</span></h5>]]></content>
-      <categories>
-        <category>database</category>
-      </categories>
-      <tags>
-        <tag>postgresql</tag>
-        <tag>oracle</tag>
-        <tag>mysql</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>换电脑后博客迁移</title>
     <url>/post/19844bb3.html</url>
     <content><![CDATA[<h4 id="得到博客文件夹"><a href="#得到博客文件夹" class="headerlink" title="得到博客文件夹"></a>得到博客文件夹</h4><p>文件可以从github上clone也可以从原电脑备份</p>
@@ -181,7 +168,7 @@
 <p>如果出现如下错误:</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line">xxx<span class="meta">@github</span>.com: Permission <span class="title function_">denied</span> <span class="params">(publickey)</span>.</span><br></pre></td></tr></table></figure>
 
-<p>这是因为测试的时候使用了其他用户名导致, 请使用<a href="mailto:&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;</a>来测试</p>
+<p>这是因为测试的时候使用了其他用户名导致, 请使用<a href="mailto:&#103;&#105;&#x74;&#x40;&#103;&#105;&#x74;&#x68;&#x75;&#98;&#x2e;&#x63;&#111;&#x6d;">&#103;&#105;&#x74;&#x40;&#103;&#105;&#x74;&#x68;&#x75;&#98;&#x2e;&#x63;&#111;&#x6d;</a>来测试</p>
 <h4 id="设置Git用户信息"><a href="#设置Git用户信息" class="headerlink" title="设置Git用户信息"></a>设置Git用户信息</h4><figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">$ git config <span class="attr">--global</span> user<span class="selector-class">.name</span> <span class="string">&quot;用户名&quot;</span></span><br><span class="line">$ git config <span class="attr">--global</span> user<span class="selector-class">.email</span>  <span class="string">&quot;邮箱&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>到此迁移完成, 继续愉快的学习吧</p>
@@ -192,6 +179,19 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>各数据库类似功能函数记录</title>
+    <url>/post/19724609.html</url>
+    <content><![CDATA[<h4 id="1-将多行的某个字段合并为一行"><a href="#1-将多行的某个字段合并为一行" class="headerlink" title="1. 将多行的某个字段合并为一行"></a>1. 将多行的某个字段合并为一行</h4><h5 id="1-1-mysql的group-concat-distinct-column-order-by-cloumn-separator-函数"><a href="#1-1-mysql的group-concat-distinct-column-order-by-cloumn-separator-函数" class="headerlink" title="1.1 mysql的group_concat([distinct] column [order by cloumn] [separator])函数"></a>1.1 mysql的<span style="color:red">group_concat([distinct] column [order by cloumn] [separator])</span>函数</h5><h5 id="1-2-oracle的listagg-within-group-函数"><a href="#1-2-oracle的listagg-within-group-函数" class="headerlink" title="1.2 oracle的listagg() within group ()函数"></a>1.2 oracle的<span style="color:red">listagg() within group ()</span>函数</h5><h5 id="postgresql的string-agg-expression-separator-order-by-clause-和array-agg-expression-order-by-sort-expression-asc-desc-…-函数"><a href="#postgresql的string-agg-expression-separator-order-by-clause-和array-agg-expression-order-by-sort-expression-asc-desc-…-函数" class="headerlink" title="postgresql的string_agg(expression, separator [order_by_clause])和array_agg(expression [order by [sort_expression {asc | desc}], […])函数"></a>postgresql的<span style="color:red">string_agg(expression, separator [order_by_clause])</span>和<span style="color:red">array_agg(expression [order by [sort_expression {asc | desc}], […])函数</span></h5>]]></content>
+      <categories>
+        <category>database</category>
+      </categories>
+      <tags>
+        <tag>postgresql</tag>
+        <tag>oracle</tag>
+        <tag>mysql</tag>
       </tags>
   </entry>
   <entry>
