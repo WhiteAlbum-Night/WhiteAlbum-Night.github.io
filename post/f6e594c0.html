@@ -24,28 +24,30 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"whitealbumf.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":{"gitalk":{"order":-1}},"activeClass":"gitalk"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"rubberBand","post_header":"bounceInDown","post_body":"bounceInDown","coll_header":"bounceInLeft","sidebar":"bounceInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="换电脑后博客迁移">
+    <meta name="description" content="Linux下网卡丢失">
 <meta property="og:type" content="article">
-<meta property="og:title" content="换电脑后博客迁移">
-<meta property="og:url" content="https://whitealbumf.github.io/post/19844bb3.html">
+<meta property="og:title" content="Linux下网卡丢失找不到ens33问题">
+<meta property="og:url" content="https://whitealbumf.github.io/post/f6e594c0.html">
 <meta property="og:site_name" content="你好啊">
-<meta property="og:description" content="换电脑后博客迁移">
+<meta property="og:description" content="Linux下网卡丢失">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-05-24T03:24:14.000Z">
-<meta property="article:modified_time" content="2022-07-26T06:59:40.653Z">
+<meta property="og:image" content="https://whitealbumf.github.io/images/vmnet.png">
+<meta property="article:published_time" content="2022-08-17T07:18:28.000Z">
+<meta property="article:modified_time" content="2022-08-17T08:13:25.884Z">
 <meta property="article:author" content="WhiteAlbum">
-<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="linux">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://whitealbumf.github.io/images/vmnet.png">
 
 
-<link rel="canonical" href="https://whitealbumf.github.io/post/19844bb3.html">
+<link rel="canonical" href="https://whitealbumf.github.io/post/f6e594c0.html">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://whitealbumf.github.io/post/19844bb3.html","path":"post/19844bb3.html","title":"换电脑后博客迁移"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://whitealbumf.github.io/post/f6e594c0.html","path":"post/f6e594c0.html","title":"Linux下网卡丢失找不到ens33问题"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>换电脑后博客迁移 | 你好啊</title>
+<title>Linux下网卡丢失找不到ens33问题 | 你好啊</title>
   
 
 
@@ -148,7 +150,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+    <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -161,7 +163,6 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BE%97%E5%88%B0%E5%8D%9A%E5%AE%A2%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-text">得到博客文件夹</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85"><span class="nav-text">开始安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8SSH-Key%E5%85%B3%E8%81%94Github%E4%BB%93%E5%BA%93"><span class="nav-text">使用SSH Key关联Github仓库</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9C%A8Github%E6%B7%BB%E5%8A%A0SSH-Key"><span class="nav-text">在Github添加SSH Key</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AEGit%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF"><span class="nav-text">设置Git用户信息</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -248,7 +249,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://whitealbumf.github.io/post/19844bb3.html">
+    <link itemprop="mainEntityOfPage" href="https://whitealbumf.github.io/post/f6e594c0.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/1551159522898.png">
@@ -261,12 +262,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="换电脑后博客迁移 | 你好啊">
-      <meta itemprop="description" content="换电脑后博客迁移">
+      <meta itemprop="name" content="Linux下网卡丢失找不到ens33问题 | 你好啊">
+      <meta itemprop="description" content="Linux下网卡丢失">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          换电脑后博客迁移
+          Linux下网卡丢失找不到ens33问题
         </h1>
 
         <div class="post-meta-container">
@@ -276,15 +277,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2021-05-24 11:24:14" itemprop="dateCreated datePublished" datetime="2021-05-24T11:24:14+08:00">2021-05-24</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-07-26 14:59:40" itemprop="dateModified" datetime="2022-07-26T14:59:40+08:00">2022-07-26</time>
+      <time title="创建时间：2022-08-17 15:18:28 / 修改时间：16:13:25" itemprop="dateCreated datePublished" datetime="2022-08-17T15:18:28+08:00">2022-08-17</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -292,7 +287,7 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a>
+          <a href="/categories/problem/" itemprop="url" rel="index"><span itemprop="name">problem</span></a>
         </span>
     </span>
 
@@ -310,18 +305,18 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>2.9k</span>
+      <span>2.7k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>5 分钟</span>
+      <span>4 分钟</span>
     </span>
 </div>
 
-            <div class="post-description">换电脑后博客迁移</div>
+            <div class="post-description">Linux下网卡丢失</div>
         </div>
       </header>
 
@@ -329,49 +324,24 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h4 id="得到博客文件夹"><a href="#得到博客文件夹" class="headerlink" title="得到博客文件夹"></a>得到博客文件夹</h4><p>文件可以从github上clone也可以从原电脑备份</p>
-<p>建立hexo博客都会有一个独立的文件夹。电脑转移时安全的做法是将整个文件夹拷贝，这其中包括三个必备的文件：config.yml（站点配置_）、theme（主题文件夹）、source（博客内容文件）。次要文件：scaffolds（文章的模板）、package.json（使用包的说明文件）和.gitignore（限定在提交的时候哪些文件可以忽略）三个次要文件为自动生成的，因此丢失也不影响博客内容，后续在hexo init时会生成这三个文件。需要删除的文件：.git文件、node_modules（进行npm install会重新生成）、public（执行hexo g时会重新生成）、.deploy_git文件夹（执行hexo d时会重新生成）、db.json文件。其实上面这些可删除的文件即为.gitignore文件里面记载的可以忽略的内容。</p>
-<h4 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h4><p>首先安装hexo</p>
-<p>使用命令 <code>npm install -g hexo-cli</code></p>
-<p>由于我们已经有了原博客的文件所以 <span style="color:red">不用执行 hexo init &lt;博客文件夹&gt;</span> 否则会初始化你原本博客的个性化设置</p>
-<p>直接开始安装博客需要的一些组件</p>
-<p>执行npm install,可能会出现两个警告, 不必理会</p>
-<p>到这一步我们已经安装完成了, 接下来需要和我们的github仓库联系起来以便推送</p>
-<h4 id="使用SSH-Key关联Github仓库"><a href="#使用SSH-Key关联Github仓库" class="headerlink" title="使用SSH Key关联Github仓库"></a>使用SSH Key关联Github仓库</h4><p>如果还能找到以前使用的ssh key, 那可以把原来的key文件复制到新电脑继续使用 key文件夹.ssh一般在C盘的用户目录下</p>
-<p>找不回的话就需要新生成key文件, 使用命令: <code>ssh-keygen -t rsa -C &quot;你的邮箱地址&quot;</code>来生成新的ssh key文件</p>
-<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">注意： GitHub 在 <span class="number">2022</span> 年 <span class="number">3</span> 月 <span class="number">15</span> 日通过删除较旧的不安全密钥类型提高了安全性。</span><br><span class="line"></span><br><span class="line">从该日期起，不再支持 DSA 密钥 (ssh-dss)。 您无法将新 DSA 密钥添加到您在 GitHub.com 上的个人帐户。</span><br><span class="line"></span><br><span class="line">在 <span class="number">2021</span> 年 <span class="number">11</span> 月 <span class="number">2</span> 日之前 valid_after 的 RSA 密钥 (ssh-rsa) 可以继续使用任何签名算法。 在该日期之后生成的 RSA 密钥必须使用 SHA-<span class="number">2</span> 签名算法。 某些较旧的客户端可能需要升级才能使用 SHA-<span class="number">2</span> 签名。</span><br><span class="line"></span><br><span class="line">受支持的秘钥类型为: </span><br><span class="line">id_rsa.<span class="keyword">pub</span></span><br><span class="line">id_ecdsa.<span class="keyword">pub</span></span><br><span class="line">id_ed25519.<span class="keyword">pub</span></span><br><span class="line"></span><br><span class="line">$ ssh-keygen -t ed25519 -C <span class="string">&quot;your_email@example.com&quot;</span></span><br><span class="line">Note: If you are using a legacy system that doesn<span class="symbol">&#x27;t</span> support the Ed25519 algorithm, <span class="keyword">use</span>:</span><br><span class="line">$ ssh-keygen -t rsa -b <span class="number">4096</span> -C <span class="string">&quot;your_email@example.com&quot;</span></span><br></pre></td></tr></table></figure>
+        <p>虚拟机断电非正常关机后再开机后发现没网了，ifconfig查看发现网卡ens33没有了。一开始出现的问题是windows服务里的VMware Nat Service和Vmware DHCP服务未启动，我在尝试开启他们的时候报错。解决办法是在虚拟网络编辑器中恢复默认设置。</p>
+<p><img src="/images/vmnet.png" alt="vmnet.png"></p>
+<p>恢复完成后再次重启虚拟机问题还是没有解决。</p>
+<p><code>systemctl status network</code> 查看服务状态发现抱错<code>Failed to start LSB: Bring up/down networking.</code> 重启服务会发现报如下错误</p>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Job <span class="keyword">for</span> network.service failed because <span class="keyword">the</span> control <span class="built_in">process</span> exited <span class="keyword">with</span> error code. </span><br><span class="line">See <span class="string">&quot;systemctl status network.service&quot;</span> <span class="keyword">and</span> <span class="string">&quot;journalctl -xe&quot;</span> <span class="keyword">for</span> details.</span><br></pre></td></tr></table></figure>
 
-<p>这里使用rsa模式, 接下来会出现如下提示: </p>
-<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; Generating <span class="keyword">public</span>/<span class="keyword">private</span> rsa key pair.</span><br><span class="line">&gt; Enter a <span class="keyword">file</span> in which to save the key (<span class="regexp">/c/U</span>sers<span class="regexp">/you/</span>.ssh/id_rsa):[Press enter]</span><br></pre></td></tr></table></figure>
+<p>在网上找了很多方法，大都是让关闭NetworkManager这个服务，然后配置mac地址重启network服务。试了很多次还是差不多的错误一直没解决。</p>
+<p>然后偶然看到一个命令nmcli，这是CentOS &#x2F; RHEL 7中的网络管理命令行工具，<a target="_blank" rel="noopener" href="https://blog.csdn.net/wq1205750492/article/details/124497231">具体可见此篇</a>。</p>
+<p>使用<code>nmcli device</code> 查看如下，发现ens33并没有被管理</p>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">DEVICE           <span class="keyword">TYPE</span>      <span class="type">STATE   </span>CONNECTION      </span><br><span class="line">ens33            ethernet  unmanaged  <span class="comment">--           </span></span><br><span class="line">br-be0e8c2a6f0e  bridge    unmanaged  <span class="comment">-- </span></span><br><span class="line">docker0          bridge    unmanaged  <span class="comment">--         </span></span><br><span class="line">tunl0            iptunnel  unmanaged  <span class="comment">--              </span></span><br><span class="line">dummy0           dummy     unmanaged  <span class="comment">--              </span></span><br><span class="line">kube-ipvs0       dummy     unmanaged  <span class="comment">--              </span></span><br><span class="line">cali213ddd9f079  ethernet  unmanaged  <span class="comment">--              </span></span><br><span class="line">cali79116ae6490  ethernet  unmanaged  <span class="comment">--              </span></span><br><span class="line">cali938c0c58be0  ethernet  unmanaged  <span class="comment">--              </span></span><br><span class="line">cali9adcc20a48c  ethernet  unmanaged  <span class="comment">--              </span></span><br><span class="line">caliaddbfd17901  ethernet  unmanaged  <span class="comment">--              </span></span><br><span class="line">calif809543b94d  ethernet  unmanaged  <span class="comment">--              </span></span><br><span class="line">veth1181ad1      ethernet  unmanaged  <span class="comment">--              </span></span><br><span class="line">veth428b509      ethernet  unmanaged  <span class="comment">--              </span></span><br><span class="line">veth5216903      ethernet  unmanaged  <span class="comment">--              </span></span><br><span class="line">veth73cff3d      ethernet  unmanaged  <span class="comment">--              </span></span><br><span class="line">vethba0bdfa      ethernet  unmanaged  <span class="comment">--              </span></span><br><span class="line">lo               loopback  unmanaged  <span class="comment">--</span></span><br></pre></td></tr></table></figure>
 
-<p>直接回车, 使用默认路径就好, 接下来会出现: </p>
-<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; Enter passphrase (empty <span class="keyword">for</span> no passphrase): [<span class="keyword">Type</span> <span class="type">a </span>passphrase]</span><br><span class="line">&gt; Enter same passphrase again: [<span class="keyword">Type</span> <span class="type">passphrase </span>again]</span><br></pre></td></tr></table></figure>
+<p>使用命令<code>nmcli networking on</code>，再次查看发现ens33已经显示连接了</p>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">DEVICE           <span class="keyword">TYPE</span>      <span class="type">STATE   	   </span>CONNECTION      </span><br><span class="line">ens33            ethernet  connected   ens33           </span><br><span class="line">br-be0e8c2a6f0e  bridge    connected   br-be0e8c2a6f0e </span><br><span class="line">docker0          bridge    connected   docker0         </span><br><span class="line">tunl0            iptunnel  disconnect  <span class="comment">--              </span></span><br><span class="line">dummy0           dummy     unmanaged   <span class="comment">--              </span></span><br><span class="line">kube-ipvs0       dummy     unmanaged   <span class="comment">--              </span></span><br><span class="line">cali213ddd9f079  ethernet  unmanaged   <span class="comment">--              </span></span><br><span class="line">cali79116ae6490  ethernet  unmanaged   <span class="comment">--              </span></span><br><span class="line">cali938c0c58be0  ethernet  unmanaged   <span class="comment">--              </span></span><br><span class="line">cali9adcc20a48c  ethernet  unmanaged   <span class="comment">--              </span></span><br><span class="line">caliaddbfd17901  ethernet  unmanaged   <span class="comment">--              </span></span><br><span class="line">calif809543b94d  ethernet  unmanaged   <span class="comment">--              </span></span><br><span class="line">veth1181ad1      ethernet  unmanaged   <span class="comment">--              </span></span><br><span class="line">veth428b509      ethernet  unmanaged   <span class="comment">--              </span></span><br><span class="line">veth5216903      ethernet  unmanaged   <span class="comment">--              </span></span><br><span class="line">veth73cff3d      ethernet  unmanaged   <span class="comment">--              </span></span><br><span class="line">vethba0bdfa      ethernet  unmanaged   <span class="comment">--              </span></span><br><span class="line">lo               loopback  unmanaged   <span class="comment">--</span></span><br></pre></td></tr></table></figure>
 
-<p>要求你输入密码，这个密码会在你提交项目时使用，如果为空的话提交项目时则不用输入。这个设置是防止别人往你的项目里提交内容。</p>
-<p>注意：输入密码的时候没有*字样的，直接输入就好。<br>然后会显示关于新生成key的一些信息, 到此ssh key生成完成</p>
-<figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Your identification has been saved in /C/Users/Night/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved in /C/Users/Night/.ssh/id_rsa.pub.</span><br><span class="line">The key fingerprint is:</span><br><span class="line">65:58:······02:4b emailname<span class="meta">@email.com</span></span><br><span class="line">The key&#x27;s randomart image is:</span><br><span class="line">+--[ RSA 2048]----+</span><br><span class="line">|<span class="string">                 </span>|</span><br><span class="line">|<span class="string">       .   o .   </span>|</span><br><span class="line">|<span class="string">    . o o = o    </span>|</span><br><span class="line">|<span class="string">   . o * = o     </span>|</span><br><span class="line">|<span class="string">  E  o + o .     </span>|</span><br><span class="line">|<span class="string"> . o.   . .      </span>|</span><br><span class="line">|<span class="string">     ..          </span>|</span><br><span class="line">+-----------------+</span><br></pre></td></tr></table></figure>
+<p>如果state为disconnect，请查看&#x2F;etc&#x2F;sysconfig&#x2F;network-scripts&#x2F;(网卡配置文件)中，ONBOOT是否为yes。</p>
+<p>再次重启服务，<code>systemctl restart network</code>，报错消失了。<code>systemctl status network</code> 查看服务，服务已经恢复正常。</p>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">● network.service - LSB: Bring up/down networking</span><br><span class="line">   Loaded: loaded (/etc/rc.d/init.d/network; bad; vendor preset: disabled)</span><br><span class="line">   Active: active (exited) since 三 <span class="number">2022</span>-<span class="number">08</span>-<span class="number">17</span> <span class="number">15</span>:<span class="number">11</span>:<span class="number">57</span> CST; <span class="number">1h</span> <span class="number">0m</span><span class="keyword">in</span> ago</span><br><span class="line">     Docs: man:systemd-sysv-generator(<span class="number">8</span>)</span><br><span class="line">  Process: <span class="number">47582</span> <span class="attr">ExecStop=</span>/etc/rc.d/init.d/network <span class="literal">stop</span> (<span class="attr">code=</span>exited, <span class="attr">status=</span><span class="number">0</span>/SUCCESS)</span><br><span class="line">  Process: <span class="number">47776</span> <span class="attr">ExecStart=</span>/etc/rc.d/init.d/network <span class="literal">start</span> (<span class="attr">code=</span>exited, <span class="attr">status=</span><span class="number">0</span>/SUCCESS)</span><br><span class="line"></span><br><span class="line"><span class="number">8</span>月 <span class="number">17</span> <span class="number">15</span>:<span class="number">11</span>:<span class="number">57</span> k8s-<span class="keyword">node</span><span class="title">-1</span> systemd[<span class="number">1</span>]: Starting LSB: Bring up/down networking...</span><br><span class="line"><span class="number">8</span>月 <span class="number">17</span> <span class="number">15</span>:<span class="number">11</span>:<span class="number">57</span> k8s-<span class="keyword">node</span><span class="title">-1</span> network[<span class="number">47776</span>]: 正在打开环回接口： [  确定  ]</span><br><span class="line"><span class="number">8</span>月 <span class="number">17</span> <span class="number">15</span>:<span class="number">11</span>:<span class="number">57</span> k8s-<span class="keyword">node</span><span class="title">-1</span> network[<span class="number">47776</span>]: 正在打开接口 ens33： 连接已成功激活（D-Bus 活动路径：/org/freedesktop/NetworkManager/ActiveConnection/<span class="number">2</span>）</span><br><span class="line"><span class="number">8</span>月 <span class="number">17</span> <span class="number">15</span>:<span class="number">11</span>:<span class="number">57</span> k8s-<span class="keyword">node</span><span class="title">-1</span> network[<span class="number">47776</span>]: [  确定  ]</span><br><span class="line"><span class="number">8</span>月 <span class="number">17</span> <span class="number">15</span>:<span class="number">11</span>:<span class="number">57</span> k8s-<span class="keyword">node</span><span class="title">-1</span> systemd[<span class="number">1</span>]: <span class="literal">Started</span> LSB: Bring up/down networking.</span><br></pre></td></tr></table></figure>
 
-<h4 id="在Github添加SSH-Key"><a href="#在Github添加SSH-Key" class="headerlink" title="在Github添加SSH Key"></a>在Github添加SSH Key</h4><p>登录github, 在个人头像处点击设置, 然后找到SSH and GPG keys, 点击新建SSH Key</p>
-<p>找到我们刚才生成的key文件夹, 用编辑器打开id_rsa.pub文件并复制全部内容</p>
-<p>将复制的内容粘贴到新建框内, title可以随便写, 然后点击保存</p>
-<p>测试一下是否添加成功: <code>ssh -T git@github.com</code></p>
-<p>有可能会出现：</p>
-<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">The</span> authenticity of host &#x27;github.com (<span class="number">192</span>.<span class="number">168</span>.***.<span class="number">111</span>)&#x27; can&#x27;t be established.</span><br><span class="line"><span class="attribute">RSA</span> key fingerprint is <span class="number">36</span>:<span class="number">27</span>:ac:a5:<span class="number">76</span>:<span class="number">28</span>:<span class="number">2</span>d:<span class="number">45</span>:<span class="number">63</span>:<span class="number">1</span>b:<span class="number">56</span>:<span class="number">4</span>d:eb:df:a6:<span class="number">48</span>.</span><br><span class="line"><span class="attribute">Are</span> you sure you want to continue connecting (yes/no)?</span><br></pre></td></tr></table></figure>
-
-<p>或者是</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">The authenticity of host &#x27;github.com (192.168.<span class="strong">**<span class="emphasis">*.111)&#x27; can&#x27;t be established.</span></span></span><br><span class="line"><span class="emphasis"><span class="strong">RSA key fingerprint is nThbg*</span>**</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span>8.</span><br><span class="line">Are you sure you want to continue connecting (yes/no)?</span><br></pre></td></tr></table></figure>
-
-<p>这种情况下，直接 yes 回车。然后会出现：</p>
-<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">如果设置了密码会要求输入密码</span><br><span class="line">Enter passphrase <span class="keyword">for</span> <span class="keyword">key</span> <span class="comment">&#x27;/c/Users/csdl2/.ssh/id_rsa&#x27;:</span></span><br><span class="line">Hi username! You<span class="comment">&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span></span><br></pre></td></tr></table></figure>
-
-<p>如果出现如下错误:</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xxx<span class="meta">@github</span>.com: Permission <span class="title function_">denied</span> <span class="params">(publickey)</span>.</span><br></pre></td></tr></table></figure>
-
-<p>这是因为测试的时候使用了其他用户名导致, 请使用<a href="mailto:&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;</a>来测试</p>
-<h4 id="设置Git用户信息"><a href="#设置Git用户信息" class="headerlink" title="设置Git用户信息"></a>设置Git用户信息</h4><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config <span class="attr">--global</span> user<span class="selector-class">.name</span> <span class="string">&quot;用户名&quot;</span></span><br><span class="line">$ git config <span class="attr">--global</span> user<span class="selector-class">.email</span>  <span class="string">&quot;邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>到此迁移完成, 继续愉快的学习吧</p>
-<p>参考: <code>https://blog.csdn.net/qq_34187711/article/details/88592760</code></p>
 
     </div>
 
@@ -389,7 +359,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://whitealbumf.github.io/post/19844bb3.html" title="换电脑后博客迁移">https://whitealbumf.github.io/post/19844bb3.html</a>
+      <a href="https://whitealbumf.github.io/post/f6e594c0.html" title="Linux下网卡丢失找不到ens33问题">https://whitealbumf.github.io/post/f6e594c0.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -415,21 +385,18 @@
 </div>
 
           <div class="post-tags">
-              <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
+              <a href="/tags/linux/" rel="tag"><i class="fa fa-tag"></i> linux</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/post/61622d0e.html" rel="prev" title="使用富文本编辑器Ueditor是遇到的小问题">
-                  <i class="fa fa-chevron-left"></i> 使用富文本编辑器Ueditor是遇到的小问题
+                <a href="/post/19724609.html" rel="prev" title="各数据库类似功能函数记录">
+                  <i class="fa fa-chevron-left"></i> 各数据库类似功能函数记录
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/post/acd51c99.html" rel="next" title="Linux下安装和卸载plsql">
-                  Linux下安装和卸载plsql <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
@@ -579,7 +546,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.7.2/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
-<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"whitealbumf","repo":"whitealbumf.github.io","client_id":"78d8aff194a7b994eaab","client_secret":"c58c50d8623543cc460eb1cc97ccdc8a7ebbf6e7","admin_user":"whitealbumf","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.7.2/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"2532c65f450698ae3dea1b2cb9ededca"}</script>
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"whitealbumf","repo":"whitealbumf.github.io","client_id":"78d8aff194a7b994eaab","client_secret":"c58c50d8623543cc460eb1cc97ccdc8a7ebbf6e7","admin_user":"whitealbumf","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.7.2/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"d0939b9f0a6d9e2cfaab92505a9e037a"}</script>
 <script src="/js/third-party/comments/gitalk.js"></script>
 
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"right","width":150,"height":240},"mobile":{"show":true},"react":{"opacity":1},"log":false});</script></body>
